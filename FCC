@@ -1,0 +1,8 @@
+<h1> to <h6> - headings from most important to least important
+<p> - to have a para
+<!-- @@@@@@@@ --> comments in HTML
+ <main> tag - The <main> tag specifies the main content of a document. The content inside the <main> element should be unique to the document. It should not contain any content that is repeated across documents such as sidebars, navigation links, copyright information, site logos, and search forms.
+Nesting – nested elements should be placed two spaces further to the right
+<img> is a self closing tag
+<img src = “https:………jpg”>
+Simillar to src attribute, all img elements should have alt attribute so that if the image fails to load the test in alt attribute will populate instead of image.
