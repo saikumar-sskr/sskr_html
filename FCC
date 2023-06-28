@@ -6,3 +6,40 @@ Nesting – nested elements should be placed two spaces further to the right
 <img> is a self closing tag
 <img src = “https:………jpg”>
 Simillar to src attribute, all img elements should have alt attribute so that if the image fails to load the test in alt attribute will populate instead of image.
+turn the words into link using anchor tag like <a href = "https:.......com"words containing link></a>, href is attribute for the anchor tag.
+new para and anchor in the same line like  <p>See more <a href = "https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+target attribute with value _blank to open the link in the next page like below:
+<p>See more <a target="_blank" href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+turn an image into a link like below:
+<a href = "https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+to create unordered list: 
+<ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+
+figure and figcaption to add a caption to the image like below:
+        <figure>
+          
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats love lasagna</figcaption>
+        </figure>
+
+Emphasize the word love in the figcaption element by wrapping it in an emphasis em element.
+                  <figcaption>Cats love lasagna.<em>love</em></figcaption>
+
+unordered list ----> bullet points
+ordered list -----> numbers, same as unordered list
+       <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+
+to make the text bold, strong element is used in html like below:
+    <figcaption>Cats <strong>hate</strong> other cats.</figcaption>  
+
+form element is used for taking user responses and it also has an attribute called action which the value of a location where the form data should be sent in.
+             <form action = "https://freecatphotoapp.com/submit-cat-photo"></form>
+
